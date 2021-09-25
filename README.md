@@ -1,8 +1,3 @@
-# Week01_Day01_CommandLine
-
-
-![](https://ucc15010765377c7ec9059f668d2.previews.dropboxusercontent.com/p/thumb/ABTMVSBju5w9onY-1EveYFLSJ2q40nXCletvoWGdla6Lq9G6XhxFue20Ta_rklx7OzySuvhgsBCnPsVAOD07Yud5EfH7PecWNQkLaR5BVA0GPl-DURSG-c_02Pm1CuJ18EKBdw9qa0l_P_j-UVNotLO1I4HsNW8zgG6QLZ6GdQfD44pra-ISqkbPqwtA9iVQ1JbgJpTiU-c5-vcojCz2JFibR3fzDWYi_ImZgkS_bTfeCidweA7tYRoX9nsukgxU7-DX-TzFGE0PCqQtTOOMXXZ-hLNaF9Fww8iYJOCdWQFFsNlZP5mzRC00Ahlu-HkA60sct2XYJyqcAKg2_e7T8luBNDo-toUJa5XyIpA0nHosIMZN76LJ1pdgCbOWDfQVKI0uHep5bSE7uaK56-8Fqqn2CCZk9AWN1MCc3gBWdjZRsw/p.png)
-
 
 # Command Line 
 
@@ -13,3 +8,57 @@
 - View the files
 - Detete and edit them
 - How to Navigate 
+
+----
+![](./slides/slide01.jpg)
+![](./slides/slide02.jpg)
+![](./slides/slide03.jpg)
+![](./slides/slide04.jpg)
+![](./slides/slide05.jpg)
+![](./slides/slide06.jpg)
+
+
+
+
+### Paths and Directories
+#### Absolute Paths
+The absolute path shows the full path of files and it is unique location withini the file system. 
+No other files can have this path.
+
+Absolute paths:
+- Start with leadiing slash '/' 
+- Always relative to the root directory 
+
+
+### Relative Paths
+The Relative paths are the paths descrbed with respect to the current directory. 
+
+There are two special relative directories.
+- `..` parent directory
+- `.`  current directory
+
+
+
+## Lab: Make a T1000 directory
+Create the following directories as well. They should be subdirectories of
+
+Please, following structure below:
+
+```sh
+~/T1000
+├── warmups
+├── homeworks_labs
+├── lessons
+├── projects
+```
+
+
+
+### Additional Resources
+- [Unix Power Tools](http://shop.oreilly.com/product/9780596003302.do)
+- [Explain cli w3shools](https://www.w3schools.com/whatis/whatis_cli.asp)
+- [Command Line Fu](http://www.commandlinefu.com/commands/browse)
+- [Teaching Unix](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+- [Unix Cheat Sheet](https://www.rain.org/~mkummel/unix.html)
+
+
